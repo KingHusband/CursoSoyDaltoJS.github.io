@@ -115,4 +115,59 @@ frase = `Nombre del PC: <b>${nombre}</b>.<br>
 
 document.write(frase); */
 
-/* BUCLES E ITERACIONES */
+/* BUCLES E ITERACIÓN */
+
+/* While */
+
+/* let número = 0;
+
+while (número <= 6) {
+    número++;
+    document.write(número + "<br>");
+} */
+
+/* Primero verifico que se cumpla la condición y luego ejecuto la acción. Así sucesivamente hasta que la
+condición se deje de cumplir. */
+
+/* Do while */
+
+/* let número = 0; */
+
+/* do {
+    número++;
+    document.write(número + "<br>");
+}
+while (número <= 6) */
+
+/* do {
+    document.write(número + "<br>");
+    número++;
+}
+while (número <= 6) */
+
+/* do {
+    document.write(número + "<br>");
+    número++;
+}
+while (número > 6) */
+
+/* Primero ejecuto la acción y luego verifico que se cumpla la condición. Así sucesivamente hasta que la
+condición se deje de cumplir. */
+
+/* Sentencia Break */
+
+/* let número = 0;
+
+while (número < 1000) {
+    número++;
+    document.write(número + "<br>");
+    if (número == 10) {
+        break;
+    }
+}
+
+document.write("Fin."); */
+
+/* Break hace que cuando se lea se termine el bucle. */
+
+/* For */
